@@ -1799,8 +1799,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn {
     width: 215px;
-    border-color: #FFFFFF;
+    border: 2.5px solid #FFFFFF;
     color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.3);
     margin: 1.7rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2069,7 +2070,7 @@ html.no-csstransitions .home-content__main {
 
 .home-content button {
     width: 215px;
-    border-color: #FFFFFF;
+    border-color: 2.4px solid #FFFFFF;
     color: #FFFFFF;
     margin: 2.5rem 1rem 0 0;
     letter-spacing: .25rem;
